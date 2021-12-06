@@ -1,4 +1,4 @@
-f = open("example.txt", "r")
+f = open("Day 2/example2.txt", "r")
 
 lines = f.readlines()
 print(lines)
