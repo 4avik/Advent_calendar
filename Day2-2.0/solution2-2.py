@@ -12,9 +12,10 @@ for command in lines:
     print(command)
     if command [0] == "forward":
         horizontal += int(command[1])
-        depth2 += aim * int  
+        depth2 += aim * int(command[1]) 
     elif command[0] == "down":
-        depth +int(command[1])
+        depth += int(command[1])
+    
     elif command[0] == "up":
         depth -= int(command[1])
     print(horizontal * depth)

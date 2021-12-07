@@ -11,7 +11,8 @@ for command in lines:
     if command [0] == "forward":
         horizontal += int(command[1]) 
     elif command[0] == "down":
-        depth +int(command[1])
+        depth += int(command[1])
     elif command[0] == "up":
         depth -= int(command[1])
-    print(horizontal * depth)
+
+print(horizontal * depth)
